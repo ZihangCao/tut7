@@ -1,0 +1,16 @@
+To
+#foreach($person in $friends)
+$person.firstName $person.name
+$person.number $person.street
+$person.town
+
+Dear $person.firstName,
+I would like to invite you to a part this Saturday, 8pm at my place.
+
+Cheers, ZiHang
+
+
+---------------------------------------------------------
+
+
+#end
